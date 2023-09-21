@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] microservice-new                                                   [pom]
+[INFO] product-service                                                    [jar]
+[INFO] order-service                                                      [jar]
+[INFO] inventory-service                                                  [jar]
+[INFO] discovery-server                                                   [jar]
+[INFO] api-gateway                                                        [jar]
+[INFO] notification-service                                               [jar]
+[INFO] 
+[INFO] ------------------< org.programming:microservice-new >------------------
+[INFO] Building microservice-new 1.0-SNAPSHOT                             [1/7]
+[INFO]   from pom.xml
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for microservice-new 1.0-SNAPSHOT:
+[INFO] 
+[INFO] microservice-new ................................... FAILURE [  0.050 s]
+[INFO] product-service .................................... SKIPPED
+[INFO] order-service ...................................... SKIPPED
+[INFO] inventory-service .................................. SKIPPED
+[INFO] discovery-server ................................... SKIPPED
+[INFO] api-gateway ........................................ SKIPPED
+[INFO] notification-service ............................... SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.297 s
+[INFO] Finished at: 2023-09-20T14:37:47-03:00
+[INFO] ------------------------------------------------------------------------
+[ERROR] Unknown lifecycle phase "jib". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: pre-clean, clean, post-clean, validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, site-deploy. -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
